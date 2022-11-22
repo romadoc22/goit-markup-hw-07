@@ -9,7 +9,7 @@
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 .examples__list {
   display: flex;
@@ -34,7 +34,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $pimary-white-color;
   padding-top: 27px;
   padding-bottom: 27px;
   padding-left: auto;
