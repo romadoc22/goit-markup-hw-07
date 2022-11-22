@@ -1,0 +1,43 @@
+.section-hero {
+  max-width: 1600px;
+  background: rgba(47, 48, 58, 0.4);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hat.jpg);
+}
+.container {
+}
+.hero {
+  display: block;
+}
+.hero__title {
+  display: block;
+  color: $pimary-white-color;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  margin-bottom: 30px;
+}
+.hero__button {
+  display: block;
+  padding: 10px 34px;
+  min-width: 216px;
+  text-align: center;
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--pimary-white-color);
+  background-color: $accent-color;
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
