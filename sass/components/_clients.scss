@@ -31,14 +31,15 @@
   border-radius: 4px;
   padding: 16px 32px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
 }
 .clients__icon {
   fill: $icon-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients__item:hover,
-.clients__item:focus,
-.clients__icon:hover {
-  border-color: $accent-color;
-  fill: $accent-color;
+  &:hover {
+    fill: $accent-color;
+  }
 }
