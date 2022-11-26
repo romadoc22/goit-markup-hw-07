@@ -25,7 +25,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.site-nav {
+.site__nav {
   display: flex;
   margin-left: 93px;
 }
@@ -71,9 +71,6 @@
   margin-left: auto;
 }
 .auth-nav__item {
-  display: flex;
-  align-items: flex-end;
-  justify-content: start;
   margin-left: 30px;
 }
 .auth-nav__link {
