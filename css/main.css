@@ -325,7 +325,7 @@ summary {
   height: 80px;
 }
 
-.logo {
+.header__logo {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #212121;
@@ -337,7 +337,7 @@ summary {
   text-decoration: none;
 }
 
-.logo__title {
+.header__logo--title {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -347,18 +347,18 @@ summary {
   letter-spacing: 0.03em;
 }
 
-.site__nav {
+.header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
 }
 
-.site-nav__item {
+.header-nav__item {
   margin-left: 50px;
 }
 
-.site-nav__link {
+.header-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -373,14 +373,14 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 30px;
 }
-.site-nav__link:hover, .site-nav__link:focus {
+.header-nav__link:hover, .header-nav__link:focus {
   color: #2196f3;
 }
 
-.site-nav__link--current {
+.header-nav__link--current {
   color: #2196f3;
 }
-.site-nav__link--current::before {
+.header-nav__link--current::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -392,18 +392,24 @@ summary {
   bottom: -1px;
 }
 
-.auth-nav {
+.header-auth {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
 }
 
-.auth-nav__item {
+.header-auth__item {
   margin-left: 30px;
 }
 
-.auth-nav__link {
+.header-auth__link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -412,12 +418,12 @@ summary {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.auth-nav__link:hover, .auth-nav__link:focus {
+.header-auth__link:hover, .header-auth__link:focus {
   color: #2196f3;
   fill: #2196f3;
 }
 
-.auth-nav__icon {
+.header-auth__icon {
   margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -616,7 +622,7 @@ summary {
   border-radius: 0px 0px 4px 4px;
 }
 
-.title__team {
+.team-title__human {
   padding-top: 20px;
   font-weight: 500;
   font-size: 16px;
@@ -635,7 +641,7 @@ summary {
   text-align: center;
 }
 
-.action {
+.team-action {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -650,7 +656,7 @@ summary {
   width: 270px;
 }
 
-.action__link {
+.team-action__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -666,12 +672,12 @@ summary {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.action__link:hover {
+.team-action__link:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.action__icon {
+.team-action__icon {
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -679,7 +685,7 @@ summary {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.action__icon:hover {
+.team-action__icon:hover {
   fill: #ffffff;
 }
 
@@ -735,15 +741,15 @@ summary {
 .clients__item:hover, .clients__item:focus {
   border-color: #2196f3;
 }
+.clients__item:hover .clients__icon {
+  fill: #2196f3;
+}
 
 .clients__icon {
   fill: #afb1b8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
-}
-.clients__icon:hover {
-  fill: currentColor;
 }
 
 .footer {
@@ -767,6 +773,7 @@ summary {
 .footer-adress__logo {
   display: block;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .footer-adress__logo--span {
@@ -777,6 +784,16 @@ summary {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer-adress__logo--title {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .footer-info__link a {
@@ -953,6 +970,9 @@ summary {
 }
 
 .form__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
   text-align: center;
   margin-top: 40px;
   margin-left: auto;

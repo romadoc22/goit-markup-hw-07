@@ -13,6 +13,7 @@
 .footer-adress__logo {
   display: block;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .footer-adress__logo--span {
@@ -24,7 +25,14 @@
   letter-spacing: 0.03em;
   color: $pimary-white-color;
 }
-.footer-info__list {
+.footer-adress__logo--title {
+  color: $accent-color;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .footer-info__link a {
   font-style: normal;

@@ -30,7 +30,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.title__team {
+.team-title__human {
   padding-top: 20px;
   font-weight: 500;
   font-size: 16px;
@@ -47,7 +47,7 @@
   color: $title-tex-color;
   text-align: center;
 }
-.action {
+.team-action {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -57,7 +57,7 @@
   padding-right: 32px;
   width: 270px;
 }
-.action__link {
+.team-action__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,7 @@
     color: $pimary-white-color;
   }
 }
-.action__icon {
+.team-action__icon {
   width: 44px;
   height: 44px;
   padding: 12px;
