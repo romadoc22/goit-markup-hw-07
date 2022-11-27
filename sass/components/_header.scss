@@ -1,8 +1,10 @@
+.head {
+  border-bottom: 1px solid #ececec;
+}
+
 .header {
   display: flex;
   align-items: center;
-  // border-bottom: 1px solid #ececec;
-  height: 80px;
 }
 .header__logo {
   margin-right: 91px;

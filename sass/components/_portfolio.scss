@@ -1,10 +1,8 @@
-.flex {
-  width: 1200px;
-}
 .filter {
   display: flex;
   justify-content: center;
-  width: 1200px;
+  gap: 6px;
+  margin-bottom: 50px;
 }
 .list-filter {
   display: flex;

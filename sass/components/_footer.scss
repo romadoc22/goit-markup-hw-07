@@ -51,6 +51,10 @@
   }
 }
 
+.footer-info__link:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-info__geo {
   font-size: 14px;
   line-height: 1.71;
