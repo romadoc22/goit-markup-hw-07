@@ -50,6 +50,7 @@
   padding-left: 24px;
   padding-right: 24px;
 
+  font-family: $main-font;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
@@ -64,7 +65,7 @@
 }
 .fotoport__title {
   margin-bottom: 4px;
-
+  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -72,6 +73,9 @@
   color: $primary-text-color;
 }
 .fotoport__p {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
