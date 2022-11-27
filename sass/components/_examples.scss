@@ -1,11 +1,10 @@
 .section-examples {
-  padding-right: 0;
+  padding-top: 0;
 }
 
 .examples__title {
   text-align: center;
-  padding-bottom: 50px;
-  margin: auto;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -15,13 +14,15 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-left: 30px;
 }
 .examples__item {
   position: relative;
 }
 .examples__box {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 370px;
   height: 70px;
   bottom: 0;
@@ -29,14 +30,13 @@
   background: rgba(47, 48, 58, 0.8);
 }
 .examples__box--p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $pimary-white-color;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  padding-left: auto;
-  padding-right: auto;
 }

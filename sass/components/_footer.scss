@@ -1,6 +1,7 @@
 .footer {
   background-color: $primary-background-color;
-  margin: 60px 0;
+  // margin: 60px 0;
+  padding: 60px 0;
 }
 
 .footblock {
@@ -8,7 +9,7 @@
   align-items: baseline;
 }
 .footer-adress {
-  margin: 60px 0;
+  // margin: 60px 0;
 }
 .footer-adress__logo {
   display: block;
@@ -67,7 +68,15 @@
   margin-right: 93px;
 }
 .footlist__title {
-  padding-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
   color: $pimary-white-color;
 }
 .footlist__list {

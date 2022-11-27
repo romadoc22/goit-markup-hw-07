@@ -51,13 +51,12 @@
   display: flex;
   list-style: none;
   justify-content: space-between;
-  padding-top: 16px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 270px;
+
+  margin: 16px 30px 32px 32px;
 }
 .team-action__link {
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,9 +72,6 @@
   }
 }
 .team-action__icon {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
   fill: $icon-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
