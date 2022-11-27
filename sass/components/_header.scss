@@ -5,6 +5,7 @@
   height: 80px;
 }
 .header__logo {
+  margin-right: 91px;
   padding-top: 24px;
   padding-bottom: 25px;
 
@@ -27,9 +28,8 @@
 }
 .header-nav {
   display: flex;
-  margin-left: 93px;
 }
-.header-nav__item {
+.header-nav__item + .header-nav__item {
   padding-left: 50px;
 }
 .header-nav__link {

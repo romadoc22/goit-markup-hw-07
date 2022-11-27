@@ -325,6 +325,7 @@ summary {
 }
 
 .header__logo {
+  margin-right: 91px;
   padding-top: 24px;
   padding-bottom: 25px;
   color: #212121;
@@ -350,10 +351,9 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 93px;
 }
 
-.header-nav__item {
+.header-nav__item + .header-nav__item {
   padding-left: 50px;
 }
 
@@ -519,7 +519,7 @@ summary {
 }
 
 .preferens__p {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -628,7 +628,7 @@ summary {
 }
 
 .team-title__human {
-  padding-top: 20px;
+  margin-top: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -638,7 +638,7 @@ summary {
 }
 
 .team__p {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -882,6 +882,7 @@ summary {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  background-color: #2f303a;
 }
 
 .footer-form__title {
