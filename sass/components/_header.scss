@@ -5,20 +5,22 @@
 .header {
   display: flex;
   align-items: center;
-}
-.header__logo {
-  margin-right: 91px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 
-  color: $primary-text-color;
-  font-family: $secondary-font;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
+  &__logo {
+    margin-right: 91px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    color: $primary-text-color;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
 }
+
 .header__logo--title {
   color: $accent-color;
   font-family: $secondary-font;
@@ -30,29 +32,31 @@
 }
 .header-nav {
   display: flex;
+
+  &__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+    color: $primary-text-color;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
 }
 .header-nav__item + .header-nav__item {
   padding-left: 50px;
 }
-.header-nav__link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  position: relative;
-  color: $primary-text-color;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
-}
 .header-nav__link--current {
   color: $accent-color;
   &::before {
@@ -70,29 +74,32 @@
 .header-auth {
   display: flex;
   margin-left: auto;
-}
-.header-auth__item {
-  margin-left: 30px;
-}
-.header-auth__link {
-  display: inline-flex;
-  align-items: center;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $title-tex-color;
-  text-decoration: none;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-    fill: $accent-color;
+  &__item {
+    margin-left: 30px;
   }
-}
-.header-auth__icon {
-  margin-right: 10px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $title-tex-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

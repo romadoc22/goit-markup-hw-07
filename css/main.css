@@ -326,7 +326,6 @@ summary {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header__logo {
   margin-right: 91px;
   padding-top: 24px;
@@ -355,11 +354,6 @@ summary {
   display: -ms-flexbox;
   display: flex;
 }
-
-.header-nav__item + .header-nav__item {
-  padding-left: 50px;
-}
-
 .header-nav__link {
   display: block;
   padding-top: 32px;
@@ -376,6 +370,10 @@ summary {
 }
 .header-nav__link:hover, .header-nav__link:focus {
   color: #2196f3;
+}
+
+.header-nav__item + .header-nav__item {
+  padding-left: 50px;
 }
 
 .header-nav__link--current {
@@ -399,11 +397,9 @@ summary {
   display: flex;
   margin-left: auto;
 }
-
 .header-auth__item {
   margin-left: 30px;
 }
-
 .header-auth__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -424,7 +420,6 @@ summary {
   color: #2196f3;
   fill: #2196f3;
 }
-
 .header-auth__icon {
   margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -446,7 +441,6 @@ summary {
 .hero {
   display: block;
 }
-
 .hero__title {
   display: block;
   color: #ffffff;
@@ -458,7 +452,6 @@ summary {
   letter-spacing: 0.06em;
   margin-bottom: 30px;
 }
-
 .hero__button {
   display: block;
   padding: 10px 34px;
@@ -580,7 +573,6 @@ summary {
   right: 0;
   background: rgba(47, 48, 58, 0.8);
 }
-
 .examples__box--p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -597,16 +589,6 @@ summary {
   background-color: #f5f4fa;
 }
 
-.team__title {
-  text-align: center;
-  padding-bottom: 50px;
-  margin: auto;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,7 +598,15 @@ summary {
           justify-content: space-between;
   list-style: none;
 }
-
+.team__title {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: auto;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -628,24 +618,12 @@ summary {
           justify-content: center;
   gap: 30px;
 }
-
 .team__link {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
-.team-title__human {
-  margin-top: 20px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-}
-
 .team__p {
   margin-top: 10px;
   font-size: 16px;
@@ -665,7 +643,6 @@ summary {
           justify-content: space-between;
   margin: 16px 30px 32px 32px;
 }
-
 .team-action__link {
   width: 44px;
   height: 44px;
@@ -688,7 +665,6 @@ summary {
   background-color: #2196f3;
   color: #ffffff;
 }
-
 .team-action__icon {
   fill: #afb1b8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -696,6 +672,16 @@ summary {
 }
 .team-action__icon:hover {
   fill: #ffffff;
+}
+
+.team-title__human {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
 }
 
 .sectio-clients {
@@ -777,7 +763,6 @@ summary {
   margin-bottom: 20px;
   text-decoration: none;
 }
-
 .footer-adress__logo--span {
   font-family: "Raleway";
   font-style: normal;
@@ -787,7 +772,6 @@ summary {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 .footer-adress__logo--title {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
@@ -834,7 +818,6 @@ summary {
   margin-left: 70px;
   margin-right: 93px;
 }
-
 .footlist__title {
   font-family: "Roboto";
   font-style: normal;
@@ -846,13 +829,11 @@ summary {
   margin-bottom: 20px;
   color: #ffffff;
 }
-
 .footlist__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .footlist__link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -862,7 +843,6 @@ summary {
 .footlist__link:hover {
   background-color: #2196f3;
 }
-
 .footlist__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -877,7 +857,6 @@ summary {
   height: 44px;
   fill: #ffffff;
 }
-
 .footlist__icon {
   fill: #ffffff;
 }
@@ -982,7 +961,6 @@ summary {
   margin-left: auto;
   margin-right: auto;
 }
-
 .form__title {
   font-family: "Roboto";
   font-style: normal;
@@ -997,7 +975,6 @@ summary {
   letter-spacing: 0.03em;
   color: #212121;
 }
-
 .form__lable {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1017,7 +994,6 @@ summary {
   line-height: 1.1666;
   color: #757575;
 }
-
 .form__input {
   padding-top: 11px;
   padding-bottom: 11px;
@@ -1033,7 +1009,6 @@ summary {
 .form__input:hover, .form__input:focus {
   border: 1px solid #2196f3;
 }
-
 .form__icon {
   display: block;
   position: absolute;
@@ -1058,7 +1033,6 @@ summary {
   letter-spacing: 0.01em;
   color: #757575;
 }
-
 .form-field__lable {
   margin-bottom: 4px;
 }
@@ -1225,7 +1199,6 @@ summary {
   list-style: none;
   gap: 30px;
 }
-
 .list-filter__item {
   width: 370px;
   border: 1px solid #eeeeee;
@@ -1234,7 +1207,6 @@ summary {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .list-filter__link {
   text-decoration: none;
 }
@@ -1242,7 +1214,6 @@ summary {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-
 .list-filter__img {
   display: block;
   position: relative;
@@ -1263,7 +1234,6 @@ summary {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .img-pg__text {
   display: inline-block;
   padding-top: 63px;
@@ -1284,7 +1254,6 @@ summary {
   padding-bottom: 20px;
   padding-left: 24px;
 }
-
 .fotoport__title {
   margin-bottom: 4px;
   font-family: "Roboto", sans-serif;
@@ -1294,7 +1263,6 @@ summary {
   letter-spacing: 0.06em;
   color: #212121;
 }
-
 .fotoport__p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
