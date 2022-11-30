@@ -556,8 +556,10 @@ summary {
   position: relative;
 }
 
-.examples__box--p {
+.examples__box {
   position: absolute;
+  left: 0;
+  bottom: 0;
   width: 370px;
   height: 70px;
   display: -webkit-box;
@@ -577,8 +579,8 @@ summary {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
 }
 
 .section-team {
