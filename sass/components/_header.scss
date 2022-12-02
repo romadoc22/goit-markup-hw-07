@@ -13,7 +13,7 @@
 
     color: $primary-text-color;
     font-family: $secondary-font;
-    font-weight: 700;
+    // font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -21,11 +21,11 @@
   }
 }
 
-.header__logo--title {
+.header__title {
   color: $accent-color;
   font-family: $secondary-font;
-  font-style: normal;
-  font-weight: 700;
+  // font-style: normal;
+  // font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
